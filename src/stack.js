@@ -17,5 +17,5 @@ exports.pop = () => {
 
 // Returns the top most element of the stack
 exports.peek = () => {
-  return stack[0];
+  return _.last(stack);
 };
